@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watchAll",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write ."
   },
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/spanol/curso.dev#readme",
   "dependencies": {
     "next": "^13.1.6",
+    "pg": "^8.15.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
