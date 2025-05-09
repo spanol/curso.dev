@@ -8,6 +8,7 @@ async function query(queryObject) {
     database: process.env.POSTGRES_DB,
     password: process.env.POSTGRES_PASSWORD,
   });
+  console.log("Connecting to PostgreSQL database...");
   try {
     const result = await client.query(queryObject);
     return result;
